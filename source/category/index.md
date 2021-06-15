@@ -1,4 +1,4 @@
 ---
 title: All categories
-layout: "category"
+layout: category
 ---

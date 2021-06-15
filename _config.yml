@@ -102,13 +102,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-Chic
+theme: Chic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
   repo: https://yuminee@github.com/yuminee/yuminee.github.io
+  branch: master
 
 google_analytics: G-19L4Y4LSR1
 
