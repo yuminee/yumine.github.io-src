@@ -10,6 +10,7 @@ keywords:
 author: youmin park
 language: en
 timezone: ''
+google-site-verification: lY1rV4_T-oasUj0Jdw2Ven1L7u1-sJlSaxVlnrH2qRs
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -112,6 +113,16 @@ deploy:
   branch: master
 
 google_analytics: G-19L4Y4LSR1
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
 
 stylesheets:
   - /css/style.css
